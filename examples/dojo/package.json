@@ -8,7 +8,9 @@
     "test": "dojo test",
     "test:unit": "dojo build --mode unit && dojo test --unit --config local",
     "test:functional": "dojo build --mode functional && dojo test --functional --config local",
-    "test:all": "dojo build --mode unit && dojo build --mode functional && dojo test --all --config local"
+    "test:all": "dojo build --mode unit && dojo build --mode functional && dojo test --all --config local",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "16.x"
@@ -17,13 +19,15 @@
     "@dojo/framework": "^6.0.0",
     "@dojo/themes": "^6.0.0",
     "@dojo/widgets": "^6.0.0",
-    "tslib": "~1.9.1"
+    "tslib": "~1.9.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@dojo/cli": "^6.0.0",
-    "@dojo/cli-build-app": "^6.0.0",
-    "@dojo/cli-test-intern": "^6.0.0",
+    "@dojo/cli-build-app": "^8.0.0",
+    "@dojo/cli-test-intern": "^7.0.0",
     "@types/node": "~9.6.5",
     "typescript": "~3.4.5"
-  }
+  },
+  "snyk": true
 }
