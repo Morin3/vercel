@@ -11,7 +11,9 @@
     "build": "polymer build",
     "lint": "polymer lint",
     "test": "polymer test",
-    "test:integration": "polymer build # test that psk builds without error with the CLI"
+    "test:integration": "polymer build # test that psk builds without error with the CLI",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@polymer/app-layout": "^3.0.0-pre.15",
@@ -23,7 +25,8 @@
     "@polymer/iron-selector": "^3.0.0-pre.15",
     "@polymer/paper-icon-button": "^3.0.0-pre.15",
     "@polymer/polymer": "^3.0.0",
-    "@webcomponents/webcomponentsjs": "^2.0.0"
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "polymer-cli": "^1.7.1",
@@ -31,5 +34,6 @@
   },
   "engines": {
     "node": ">=16.0"
-  }
+  },
+  "snyk": true
 }
