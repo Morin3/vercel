@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@dojo/cli-build-app > @dojo/webpack-contrib > lodash':
+        patched: '2025-01-18T13:37:24.739Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@dojo/cli-build-app > @dojo/webpack-contrib > lodash'
