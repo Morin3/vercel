@@ -32,16 +32,16 @@
   "dependencies": {
     "@prisma/cli": "latest",
     "@prisma/client": "latest",
-    "blitz": "0.17.0",
+    "blitz": "2.0.0",
     "react": "experimental",
     "react-dom": "experimental"
   },
   "devDependencies": {
     "@types/react": "16.9.36",
     "@typescript-eslint/eslint-plugin": "2.x",
-    "@typescript-eslint/parser": "2.x",
+    "@typescript-eslint/parser": "4.0.0",
     "babel-eslint": "10.1.0",
-    "eslint": "6.8.0",
+    "eslint": "9.0.0",
     "eslint-config-react-app": "5.2.1",
     "eslint-plugin-flowtype": "4.7.0",
     "eslint-plugin-import": "2.21.2",
