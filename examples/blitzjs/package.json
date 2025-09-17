@@ -32,7 +32,7 @@
   "dependencies": {
     "@prisma/cli": "latest",
     "@prisma/client": "latest",
-    "blitz": "0.17.0",
+    "blitz": "0.31.0",
     "react": "experimental",
     "react-dom": "experimental"
   },
@@ -45,7 +45,7 @@
     "eslint-config-react-app": "5.2.1",
     "eslint-plugin-flowtype": "4.7.0",
     "eslint-plugin-import": "2.21.2",
-    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-jsx-a11y": "6.9.0",
     "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "3.0.0",
     "husky": "4.2.5",
