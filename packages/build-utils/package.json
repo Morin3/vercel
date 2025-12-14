@@ -41,7 +41,7 @@
     "end-of-stream": "1.4.1",
     "execa": "3.2.0",
     "fs-extra": "10.0.0",
-    "glob": "8.0.3",
+    "glob": "9.0.0",
     "ignore": "4.0.6",
     "into-stream": "5.0.0",
     "jest-junit": "16.0.0",
